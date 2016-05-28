@@ -1,0 +1,65 @@
+<html  ng-app="myApp">
+<head>
+    <title>A Web Page</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap-glyphicons.css">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="js/controllers.js"></script>
+</head>
+    
+<body ng-controller="myCtrl">
+    <h2>Masalas and Spices ({{posts.length}})</h2>
+    <div class="cart-container" data-ng-init="loadCartClass()" ng-if="cart.length">
+        <div class="container-inner-cart">
+            <p class="text-for-cart-summary">Your Cart Summary</p>
+            <div class="div-bottom-border">
+                <span class="items-in-cart-class">
+                    <p>Items in cart</p>
+                    <p>{{TotalNoOfItems}}</p>
+                </span>
+                <span class="total-amount-class">
+                    <p>Total</p>
+                    <p>{{TotalCostOfItems}}</p>
+                </span>
+            </div>
+            <table>
+                <tr>
+                    <td class="text-for-item">Item</td>
+                    <td class="text-for-quantity">Quantity</td>
+                    <td class="text-for-cost">Total</td>
+                </tr>
+                <tr data-ng-repeat="item in cart">
+                    <td class="text-for-item">{{item.productBrand + item.productName}}</td>
+                    <td class="text-for-quantity">{{item.quantity}}</td>
+                    <td class="text-for-cost">Rs. {{item.cost * item.quantity}}</td>
+                    <td>
+                        <button ng-click="removeItemFromCart(item)">Remove</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <ul ng-class="outerContainerClass">
+        <li class="div-product-container"  data-ng-repeat="item in posts">
+            <img src={{item.image}} class="img-modifier"></img>
+            <p>{{item.brandName}}</p>
+            <p>{{item.productName}}</p>
+            <p>{{item.productDetail}}</p>
+            <p>Rs. {{item.cost}}</p>
+            <button ng-if="!item.quantity" ng-click="addItemToCart(item)">Add To Cart</button>
+            <div ng-if="item.quantity">
+                <button class="decrease-quantity-button" ng-click="decreaseQuantity(item)">
+                    <span class="glyphicon glyphicon-minus"></span>
+                </button>
+                <input class="quantity-input-box" ng-model="item.quantity"></input>
+                <button class="increase-quantity-button glyphicon glyphicon-plus" ng-click="increaseQuantity(item)">
+<!--                    <span class="glyphicon glyphicon-plus"></span>-->
+                </button>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>

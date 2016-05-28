@@ -1,0 +1,149 @@
+[{ 
+    "brandName":"MTR", 
+    "productName":"Powder - Chana Masala",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/MTR-Chana-Masala.jpg"
+},{ 
+    "brandName":"MTR", 
+    "productName":"Powder - Puliogare",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/MTR-Powder-Puliogare.jpg"
+},{ 
+    "brandName":"MTR", 
+    "productName":"Powder - Chilli Powder",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/MTR-Chilli-Powder.jpg"
+},{ 
+    "brandName":"MTR", 
+    "productName":"Powder - Sambar Masala",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/MTR-Sambar-Masala.jpg"
+},{ 
+    "brandName":"MTR", 
+    "productName":"Powder - Coriander",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/MTR-Powder-Coriander.jpg"
+},{ 
+    "brandName":"MTR", 
+    "productName":"Powder - turmeric",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/MTR-Turmeric-Powder.jpg"
+},{ 
+    "brandName":"MTR", 
+    "productName":"Powder - Madras Rasam",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/MTR-Madras-Rasam.jpg"
+},{ 
+    "brandName":"MTR", 
+    "productName":"Powder - Black Pepper Masala",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/MTR-Black-Pepper-Masala.jpg"
+},{ 
+    "brandName":"Everest", 
+    "productName":"Powder - Tandoori Chicken Masala",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/Everest-Tandoori-Chicken-Masala.jpg"
+},{ 
+    "brandName":"Everest", 
+    "productName":"Powder - Shahi Biryani Masala",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/Everest-Shahi-Biryani-Masala.jpg"
+},{ 
+    "brandName":"Everest", 
+    "productName":"Powder - Sambhar Masala",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/Everest-Sambhar-Masala.jpg"
+},{ 
+    "brandName":"Everest", 
+    "productName":"Powder - Sabji Masala",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/Everest-Sabji-Masala.jpg"
+},{ 
+    "brandName":"Everest", 
+    "productName":"Powder - Rasam Masala",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/Everest-Rasam-Masala.jpg"
+},{ 
+    "brandName":"Everest", 
+    "productName":"Powder - Pani Puri Masala",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/Everest-Pani-Puri-Masala.jpg"
+},{ 
+    "brandName":"Everest", 
+    "productName":"Powder - Meat Masala",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/Everest-Meat-Masala.jpg"
+},{ 
+    "brandName":"Everest", 
+    "productName":"Powder - JalJeera Masala",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/Everest-JalJeera-Masala.jpg"
+},{ 
+    "brandName":"Everest", 
+    "productName":"Powder - Garam Masala",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/Everest-Garam-Masala.jpg"
+},{ 
+    "brandName":"Everest", 
+    "productName":"Powder - Egg Curry Masala",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/Everest-Egg-Curry-Masala.jpg"
+},{ 
+    "brandName":"Everest", 
+    "productName":"Powder - Chole Masala",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/Everest-Chole-Masala.jpg"
+},{ 
+    "brandName":"Everest", 
+    "productName":"Powder - Chaat Masala",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/Everest-Chaat-Masala.jpg"
+},{ 
+    "brandName":"Everest", 
+    "productName":"Powder - Tea Masala",
+    "productDetail":"500gm pouch",
+    "cost":200 ,
+    "quantity" : 0,
+    "image":"img/Everest-Tea-Masala.jpg"
+}
+]
